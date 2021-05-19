@@ -1,0 +1,30 @@
+// ChatMenu.jsx
+.chat {
+  width: 40rem;
+  // padding: 2rem;
+  background: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: var(--shadow-dreamy);
+  &__nav {
+    display: flex;
+    align-items: center;
+    background: #d7d7d7;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px 10px 0 0;
+    img {
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+  &__content {
+    padding: 1rem;
+  }
+  &__message {
+    display: flex;
+    img {
+      width: 2rem;
+      margin-right: 1rem;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+// ChatButton.jsx
+.button {
+  padding: 1rem;
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  border: 2px solid green;
+  background: coral;
+  cursor: pointer;
+  display: inline-block;
+  transition: all 0.3s;
+  position: absolute;
+  margin: 3rem;
+  bottom: 0;
+  right: 0;
+  font-size: 2rem;
+  &:hover {
+    transform: translateY(-3px);
+  }
+  &:active {
+    transform: translateY(1px);
+  }
+}

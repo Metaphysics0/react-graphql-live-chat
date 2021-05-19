@@ -1,0 +1,15 @@
+// Navbar.jsx
+.nav {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  img {
+    width: 2.25rem;
+    margin-right: 1rem;
+  }
+  h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+}
