@@ -1,8 +1,9 @@
-### React + GraphQL + WebSockets Live Chat
+## React + GraphQL + WebSockets Live Chat
 
-A reusable component built with some of the latest technologies
+A reusable widget built with some of the latest technologies!
+Inspired from [HubSpot](https://www.hubspot.com/products/crm/live-chat), and [Intercom](https://www.intercom.com/)
 
-## Technologies
+### Technologies
 
 - React
 - SCSS
