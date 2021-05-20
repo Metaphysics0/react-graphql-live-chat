@@ -1,17 +1,13 @@
 import React from 'react';
 
-const handleClick = () => {
-  alert('AHHHH');
-};
-
-const Chat = () => {
+const ChatButton = ({ toggleMenu }) => {
   return (
     <div>
-      <button onClick={() => handleClick()} className="button">
+      <button onClick={() => toggleMenu()} className="button">
         💬
       </button>
     </div>
   );
 };
 
-export default Chat;
+export default ChatButton;
