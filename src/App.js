@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ChatButton from './components/Chat/ChatButton';
+import { ChatButton } from './components/Chat/ChatButton';
 import ChatMenu from './components/Chat/ChatMenu';
 import Navbar from './components/Navbar';
 

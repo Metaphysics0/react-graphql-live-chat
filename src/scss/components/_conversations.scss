@@ -1,0 +1,36 @@
+// Conversations.jsx
+
+.convo {
+  border-bottom: 1px solid #7d7d7d;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.25rem;
+  transition: all 0.3s;
+  &:hover {
+    background: #bbbbbb;
+    cursor: pointer;
+  }
+  &__img {
+    width: 3rem;
+    height: 3rem;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 7rem);
+    margin: 0 auto;
+  }
+  &__name {
+    color: rgb(124, 152, 182);
+  }
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+  &__msg {
+    // text-align: center;
+  }
+}

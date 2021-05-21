@@ -5,7 +5,7 @@
   border-radius: 10px;
   box-shadow: var(--shadow-dreamy);
   position: absolute;
-  bottom: 15rem;
+  bottom: 10rem;
   right: 10rem;
 
   // ##### Chat navbar #####
@@ -15,17 +15,22 @@
     justify-content: space-between;
     background: #d7d7d7;
     padding: 1.5rem 1rem;
-    margin-bottom: 2rem;
     border-radius: 10px 10px 0 0;
     img {
       width: 2rem;
       margin-right: 1rem;
     }
+    button {
+      font-size: 2rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
   }
 
   // ##### Message section #####
   &__content {
-    padding: 1rem;
+    min-height: 25rem;
   }
   &__message {
     display: flex;

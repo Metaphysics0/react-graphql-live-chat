@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ChatButton = ({ toggleMenu }) => {
+export const ChatButton = ({ toggleMenu }) => {
   return (
     <div>
       <button onClick={() => toggleMenu()} className="button">
@@ -10,4 +10,10 @@ const ChatButton = ({ toggleMenu }) => {
   );
 };
 
-export default ChatButton;
+export const MainButton = () => {
+  return (
+    <div>
+      <button>📝</button>
+    </div>
+  );
+};

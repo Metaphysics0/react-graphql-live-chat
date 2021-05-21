@@ -1,4 +1,5 @@
 import React from 'react';
+import Conversations from './Conversations';
 import Message from './Message';
 
 const ChatMenu = ({ open, content, toggleContent }) => {
@@ -28,12 +29,12 @@ const ChatMenu = ({ open, content, toggleContent }) => {
             <Message text="Hello" />
           </>
         ) : (
-          <h1>Conversations</h1>
+          <Conversations />
         )}
       </div>
       <div className="chat__footer">
-        <input type="text" placeholder="send a message!" />
-        <button>Send</button>
+        <input type="text" placeholder="send a message!" disabled={!content} />
+        <button disabled={!content}>Send</button>
       </div>
     </div>
   );
