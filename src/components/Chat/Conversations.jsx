@@ -1,8 +1,9 @@
 import React from 'react';
 
-const Conversations = () => {
+// Conversations tab
+const Conversations = ({ toggleContent }) => {
   return (
-    <div className="convo">
+    <div className="convo" onClick={toggleContent}>
       <img
         src="https://static.hsappstatic.net/bots-ui-app/ex/bot-avatar.jpg"
         alt="bot"

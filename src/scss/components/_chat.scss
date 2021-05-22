@@ -33,6 +33,7 @@
     min-height: 25rem;
   }
   &__message {
+    padding: 0.75rem 1rem;
     display: flex;
     align-items: center;
     margin: 1rem 0;
@@ -61,6 +62,23 @@
       border-top: 0;
       margin-top: -3px;
       margin-left: -6px;
+    }
+    &--send {
+      justify-content: flex-end;
+      p {
+        position: relative;
+        background: #00aabb;
+        border-radius: 0.4em;
+      }
+      p:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 0;
+        height: 0;
+        border: 0;
+      }
     }
   }
 
